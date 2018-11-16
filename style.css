@@ -1,13 +1,19 @@
 #header {
   position: fixed;
   height: 100px;
+  background-color: orange;
 }
 
 #header-img {
-  height: 100px;
+  height: 50px;
+  width: 50px;
 }
 
-#elevate {
+#agile {
+  margin-top: 50px;
+}
+
+#furry {
   color: red;
 }
 
