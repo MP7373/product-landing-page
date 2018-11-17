@@ -4,34 +4,62 @@
   <meta charset="utf-8" />
   <title>Cats!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
   <header id="header">
     <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/02/14/12/cats-6.jpg" alt="A cute cat" id="header-img">
+    <h1 id="page-title">Cats</h1>
     <nav id="nav-bar">
       <a href="#furry" class="nav-link">Furry</a>
       <a href="#agile" class="nav-link">Agile</a>
       <a href="#fun" class="nav-link">Fun</a>
     </nav>  
   </header>
-  
-  <section id="agile">
+
+  <section id="video-container" class="flex">
     <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/8Tn-tDijJf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section> 
+
+  <section class="cat-info">
+    <div id="cat-verb-container">
+      <h2>Pounce!</h2>
+      <h2>Claw!</h2>
+      <h2 >Climb!</h2>
+    </div>
+    <P>Here at cats we value all of the characteristics that make cats meow. That said, at cats we specialize in offering 3 types of cats that you probably would like one of: furry, agile, and fun.</P>
+  </section>
+
+  <section id="furry" class="cat-info">
+    <h2>Furry</h2>
+    <img class="cat-image" src="https://i.pinimg.com/originals/2c/a0/1b/2ca01bed70921e310c0c76b33854757d.jpg" alt="A very furry cat">
+    <p>The furry cat is super long haired and is soft and cuddly. They would make really good pillows if they didn't move so often.</p>
+    <button class="button">Buy</button>
+  </section>
+
+  <section id="agile" class="cat-info">
+    <h2>Agile</h2>
+    <img class="cat-image" src="https://us.123rf.com/450wm/nightlyviolet/nightlyviolet1712/nightlyviolet171200568/91863840-black-and-white-fluffy-young-cat-climbing-on-a-tree-in-winter-park-.jpg?ver=6" alt="A cat climing in a tree">
+    <p>The agile cat is very flexible and can easily react to changes in business requirements, like the need to be in a tree.</p>
+    <button class="button">Buy</button>
   </section>
   
-  <section id="furry" class="flex">
-    <div>Hop!</div>
-    <div>Claw!</div>
-    <div>Climb!</div>
+  <section id="fun" class="cat-info">
+      <h2>Fun</h2>
+      <img class="cat-image" src="http://dompict.com/wp-content/uploads/2016/11/Cat-Playing-Ball-33-Pictures-22.jpg" alt="A very furry cat">
+      <p>The fun cat is the life of the party, and is always down to have a good time. Fun cats like all types of games ranging from sports to video games.</p>
+      <button class="button">Buy</button>
   </section>
-  
-  <section id="fun">
+
+  <section class="cat-info">
+    <p>If you like cats like we do, sign up to get monthly cats newsletter!</p>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input id="email" name="email" type="email" placeholder="email">
-      <input id="submit" type="submit">
+      <input id="email" class="input" name="email" type="email" placeholder="email">
+      <input id="submit" class="button" type="submit">
     </form>
   </section>
+
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
